@@ -1,0 +1,49 @@
+.faker {
+    background-image: radial-gradient(circle 1000px at 10% 70%, #fa7c2f, #008ac8);
+    z-index: -1;
+    position: relative;
+}
+
+.faker::before {
+    content: '';
+    background-image: radial-gradient(circle 700px at 55% 50%, #d9c2a3, transparent);
+    z-index: -1;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: inherit;
+    height: inherit;
+}
+
+.faker::after {
+    content: '';
+    background-image: radial-gradient(circle 500px at 100% 60%, #715540, transparent);
+    z-index: -1;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: inherit;
+    height: inherit;
+}
+
+#header {
+    width: 1920px;
+    height: 1080px;
+    line-height: 1080px;
+    text-align: center;
+    color: #fff;
+    font-size: 200px;
+    margin: 0 auto;
+}
+
+#header .content {
+    background: url("./venice.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    text-shadow: 0 0 50px #000;
+}
