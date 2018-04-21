@@ -1,31 +1,7 @@
 .faker {
-    background-image: radial-gradient(circle 1000px at 10% 70%, #fa7c2f, #008ac8);
-    z-index: -1;
-    position: relative;
-}
-
-.faker::before {
-    content: '';
-    background-image: radial-gradient(circle 700px at 55% 50%, #d9c2a3, transparent);
-    z-index: -1;
-
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: inherit;
-    height: inherit;
-}
-
-.faker::after {
-    content: '';
-    background-image: radial-gradient(circle 500px at 100% 60%, #715540, transparent);
-    z-index: -1;
-
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: inherit;
-    height: inherit;
+    background: radial-gradient(circle 700px at 55% 50%, #d9c2a3, transparent),
+    radial-gradient(circle 1000px at 10% 70%, #fa7c2f, transparent),
+    radial-gradient(circle 500px at 100% 60%, #715540, transparent) #008ac8;
 }
 
 #header {
