@@ -1,6 +1,8 @@
 # css-gradient-faker 
 
-> Create fake background until real background image is not loaded
+:snail: Create fake background until real background image is not loaded
+
+## Demo :tada:
 
 ![](./demo.gif)
 
