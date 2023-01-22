@@ -2,7 +2,7 @@
 
 :snail: Create fake background until real background image is not loaded
 
-## Demo :tada:
+## Preview 🎉
 
 ![](./demo.gif)
 
